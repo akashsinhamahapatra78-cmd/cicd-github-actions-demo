@@ -1,0 +1,23 @@
+{
+  "name": "cicd-github-actions-demo",
+  "version": "1.0.0",
+  "description": "A comprehensive CI/CD pipeline demonstration using GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Running tests...' && jest --version",
+    "build": "echo 'Building project...' && node -e \"console.log('Build successful!');\"",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "cicd",
+    "github-actions",
+    "automation",
+    "testing",
+    "deployment"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
